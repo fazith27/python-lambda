@@ -3,7 +3,7 @@ Resources:
   - LambdaFunction:
       Type: AWS::Lambda::Function
       Properties:
-        Name: "LambdaFunction"
-        Alias: "LambdaFunctionAlias"
+        Name: "hello-world-python"
+        Alias: "hello-world-python"
         CurrentVersion: "1"
         TargetVersion: "2"
